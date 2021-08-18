@@ -1,10 +1,13 @@
 .button {
-    background: none;
-    text-decoration: inherit;
-    font-family: system-ui;
-    font-size: 1rem;
-    border: 5px solid;
-    border-image-slice: 1;
+    background: transparent;
+    border: 2px solid #1b9aff;
+    color: #fff;
+    border-radius: 20px;
+    width: 53px;
+    font-size: 14px;
+}
 
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+.buy-btn {
+    width: 77px;
+    border: 2px solid #ffc107;
 }

@@ -13,13 +13,19 @@ const Home = () => (
                                 <img src={image} alt="" />
                                 <figcaption>
                                     <h2>OUTDOOR</h2>
-                                    <p>Lily likes to play with crayons and pencils</p>
-                                    <button type="button" className="">
-                                        View
-                                    </button>
-                                    <button type="button" className="button buy-btn">
-                                        Buy Now
-                                    </button>
+                                    <p>
+                                        Lily likes to play with crayons and pencils
+                                        <br />
+                                        subscription: $10
+                                    </p>
+                                    <div className={styles.buttons}>
+                                        <button type="button" className="button">
+                                            View
+                                        </button>
+                                        <button type="button" className="button buy-btn">
+                                            Buy Now
+                                        </button>
+                                    </div>
                                 </figcaption>
                             </figure>
                         </div>
