@@ -1,0 +1,10 @@
+.button {
+    background: none;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 1rem;
+    border: 5px solid;
+    border-image-slice: 1;
+
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
