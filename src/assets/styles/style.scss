@@ -2,3 +2,7 @@
 @import './overwrite';
 @import './mixin';
 @import './common';
+
+body {
+    overflow-x: hidden;
+}
