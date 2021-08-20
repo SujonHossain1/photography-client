@@ -1,18 +1,11 @@
 .isotopeWrapper {
-    background: #f7f8fc;
     padding: 80px 0;
-    margin: 30px 0;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #151515;
 }
 
-.title {
-    letter-spacing: 3px;
-    font-weight: 700;
-    line-height: 1.1;
-    transition: all 0.35s;
-    text-align: center;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-}
+
 
 .filterSelects {
     position: relative;
@@ -28,7 +21,6 @@
         font-size: 13px;
         letter-spacing: 0;
         text-transform: uppercase;
-        color: #888;
         font-weight: 600;
         line-height: 1;
         padding: 0;
@@ -59,6 +51,26 @@
 
         &:hover {
             color: #1abb9c;
+        }
+    }
+}
+
+.filterContainer {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    min-height: 300px;
+
+    .filterItem {
+        width: 350px;
+        min-height: 200px;
+        margin-right: 10px;
+        margin-top: 10px !important;
+
+        img {
+            border-radius: 5px;
         }
     }
 }

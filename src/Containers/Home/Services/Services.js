@@ -4,6 +4,7 @@ import styles from './Services.module.scss';
 
 const Services = ({ services }) => (
     <div className={styles.serviceSection}>
+        <h3 className="title">Our Services</h3>
         <div className="container mt-5">
             <div className="row g-3">
                 {services.map((service) => (

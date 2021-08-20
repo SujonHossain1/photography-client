@@ -1,0 +1,50 @@
+#contact-section {
+    color: white;
+    padding: 80px 0px;
+    width: 100%;
+
+}
+
+.contact-wrap {
+    max-width: 758px;
+    background: #151515;
+    margin: 0 auto;
+    border: 10px solid #1a937b;
+    padding: 65px 99px 87px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contact-wrap label {
+    font-size: 14px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid#1a937b;
+    margin-bottom: 24px;
+    color: white;
+
+}
+
+.contact-title {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.contact-title h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+}
+
+input[type=submit] {
+    width: 50%;
+    background: #1a937b !important;
+}

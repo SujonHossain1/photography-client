@@ -6,16 +6,16 @@ const Footer = () => (
     <footer className="footer">
         <div className="container">
             <div className="row">
-                <div className="col-4">
+                <div className="col-md-4">
                     <div className="footerItem">
                         <h5 className="footerTitle">LOCATION</h5>
                         <div className="location">
-                            <p>Moonshine St. 14/05 Light City</p>
+                            <p>Moonshine St. 14/05 Mirpur-13</p>
                             <p>Dhaka, Bangladesh</p>
                         </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4">
                     <div className="footerItem">
                         <h5 className="footerTitle">FOLLOW</h5>
                         <div className="icons">
@@ -34,7 +34,7 @@ const Footer = () => (
                         </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4">
                     <div className="footerItem">
                         <h5 className="footerTitle">CONTACT</h5>
                         <div className="contact">
@@ -47,7 +47,7 @@ const Footer = () => (
                 </div>
             </div>
             <p className="copy">
-                &copy; {new Date().getFullYear()} Sujon Hossain. Assignment by Programming Hero
+                &copy; {new Date().getFullYear()} Sujon. Assignment by Programming Hero
             </p>
         </div>
     </footer>

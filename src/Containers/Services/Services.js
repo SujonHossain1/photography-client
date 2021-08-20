@@ -5,11 +5,8 @@ import image3 from '../../assets/images/services/03.jpg';
 import image4 from '../../assets/images/services/04.jpg';
 import image5 from '../../assets/images/services/05.jpg';
 import image6 from '../../assets/images/services/06.jpg';
-import AboutUs from './AboutUs/AboutUs';
-import Carousel from './Carousel/Carousel';
-import styles from './Home.module.scss';
-import IsotopeReact from './Isotope/Isotope';
-import Services from './Services/Services';
+import Services from '../Home/Services/Services';
+import './Services.scss';
 
 const services = [
     {
@@ -56,12 +53,12 @@ const services = [
     },
 ];
 
-const Home = () => (
-    <div className={styles.home}>
-        <Carousel />
-        <AboutUs />
-        <Services services={services} />
-        <IsotopeReact />
-    </div>
-);
-export default Home;
+const ServicesPage = () => {
+    return (
+        <div className="pt-5 pb-3 services">
+            <Services services={services} />
+        </div>
+    );
+};
+
+export default ServicesPage;

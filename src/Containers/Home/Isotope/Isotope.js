@@ -2,16 +2,18 @@
 /* eslint-disable no-unused-expressions */
 import Isotope from 'isotope-layout/js/isotope';
 import React, { useEffect, useRef, useState } from 'react';
-import image1 from '../../../assets/images/photos/j1-full.jpg';
-import image2 from '../../../assets/images/photos/j11-full.jpg';
-import image3 from '../../../assets/images/photos/j13-full.jpg';
-import image4 from '../../../assets/images/photos/j14-full.jpg';
-import image5 from '../../../assets/images/photos/j15-full.jpg';
-import image6 from '../../../assets/images/photos/j16-full.jpg';
-import image7 from '../../../assets/images/photos/j17-full.jpg';
-import image8 from '../../../assets/images/photos/j18-full.jpg';
-import image9 from '../../../assets/images/photos/j19-full.jpg';
-import image10 from '../../../assets/images/photos/j2-full.jpg';
+import image from '../../../assets/images/photos/j1-full.jpg';
+import image2 from '../../../assets/images/photos/j14-full.jpg';
+import image4 from '../../../assets/images/photos/j16-full.jpg';
+import image5 from '../../../assets/images/photos/j2-full.jpg';
+import image15 from '../../../assets/images/photos/j7-full.jpg';
+import image7 from '../../../assets/images/photos/w1.jpg';
+import image8 from '../../../assets/images/photos/w11.jpg';
+import image9 from '../../../assets/images/photos/w2.jpg';
+import image10 from '../../../assets/images/photos/w3.jpg';
+import image12 from '../../../assets/images/photos/w6.jpg';
+import image13 from '../../../assets/images/photos/w7.jpg';
+import image14 from '../../../assets/images/photos/w9.jpg';
 import './Isotope.scss';
 
 const IsotopeReact = () => {
@@ -57,37 +59,42 @@ const IsotopeReact = () => {
                     </li>
                 </ul>
                 <div className="filterContainer">
-                    <div className="row g-3">
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem outdoor">
-                            <img className="img-fluid" src={image1} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem outdoor">
-                            <img className="img-fluid" src={image2} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem nature portraits">
-                            <img className="img-fluid" src={image3} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem portraits">
-                            <img className="img-fluid" src={image4} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem people outdoor">
-                            <img className="img-fluid" src={image5} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem people outdoor">
-                            <img className="img-fluid" src={image6} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem people outdoor">
-                            <img className="img-fluid" src={image7} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem people outdoor">
-                            <img className="img-fluid" src={image8} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem people outdoor">
-                            <img className="img-fluid" src={image9} alt="" />
-                        </div>
-                        <div className="col-md-6 col-lg-4 col-sm-6 col-12 filterItem people outdoor">
-                            <img className="img-fluid" src={image10} alt="" />
-                        </div>
+                    <div className="filterItem portraits">
+                        <img className="img-fluid" src={image} alt="" />
+                    </div>
+                    <div className="filterItem ">
+                        <img className="img-fluid" src={image2} alt="" />
+                    </div>
+
+                    <div className="filterItem  nature">
+                        <img className="img-fluid" src={image5} alt="" />
+                    </div>
+                    <div className="filterItem portraits people ">
+                        <img className="img-fluid" src={image15} alt="" />
+                    </div>
+                    <div className="filterItem people outdoor">
+                        <img className="img-fluid" src={image7} alt="" />
+                    </div>
+                    <div className="filterItem portraits nature">
+                        <img className="img-fluid" src={image4} alt="" />
+                    </div>
+                    <div className="filterItem people portraits outdoor">
+                        <img className="img-fluid" src={image8} alt="" />
+                    </div>
+                    <div className="filterItem  nature">
+                        <img className="img-fluid" src={image9} alt="" />
+                    </div>
+                    <div className="filterItem portraits  ">
+                        <img className="img-fluid" src={image10} alt="" />
+                    </div>
+                    <div className="filterItem  nature">
+                        <img className="img-fluid" src={image12} alt="" />
+                    </div>
+                    <div className="filterItem people outdoor">
+                        <img className="img-fluid" src={image13} alt="" />
+                    </div>
+                    <div className="filterItem people outdoor">
+                        <img className="img-fluid" src={image14} alt="" />
                     </div>
                 </div>
             </div>

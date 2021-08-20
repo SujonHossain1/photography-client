@@ -1,15 +1,10 @@
-import React, { Suspense } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
-const Home = React.lazy(() => import('./Home/Home'));
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Layout from './Layout';
 
 const App = () => (
     <BrowserRouter>
-        <Switch>
-            <Suspense fallback={<div> Loading... </div>}>
-                <Route path="/" exact component={Home} />
-            </Suspense>
-        </Switch>
+        <Layout />
     </BrowserRouter>
 );
 
