@@ -50,7 +50,7 @@ function Header() {
                         <FaBars className="toggle__bar" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarMenu">
-                        <ul className="navbar-nav ms-auto">
+                        <ul className="navbar-nav ms-auto align-items-center">
                             <li className="nav-item">
                                 <NavLink className="nav-link" exact to="/">
                                     It's Sujon
@@ -68,7 +68,7 @@ function Header() {
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/join">
+                                <Link className="nav-link" to="/login">
                                     <div className="btn btn-style rounded btn-sm">Join</div>
                                 </Link>
                             </li>

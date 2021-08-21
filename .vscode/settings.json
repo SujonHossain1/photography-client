@@ -1,9 +1,10 @@
 {
     "workbench.colorTheme": "Dracula",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "[javascript]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": null,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[javascriptreact]": {
         "editor.formatOnSave": true,
@@ -23,4 +24,16 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "editor.tokenColorCustomizations": {
+        "[Dracula]": {
+            "textMateRules": [
+                {
+                    "scope": "entity.other.attribute-name",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        }
+    }
 }

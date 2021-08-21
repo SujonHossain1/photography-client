@@ -6,7 +6,10 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import routes from './Routes';
 
 const loading = (
-    <div className="d-flex justify-content-center align-items-center" style={{ height: '90vh' }}>
+    <div
+        className="d-flex justify-content-center align-items-center"
+        style={{ height: '90vh', background: '#000' }}
+    >
         <div className="spinnerWrap">
             <div className="spinner-border text-light" role="status">
                 <span className="visually-hidden">Loading...</span>

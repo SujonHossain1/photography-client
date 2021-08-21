@@ -3,8 +3,35 @@
 @import './mixin';
 @import './common';
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2874f0;
+}
+
 body {
+    height: 100%;
+    width: 100%;
     overflow-x: hidden;
-    background: #000000;
     color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+.customContainer {
+    width: 90%;
+    margin: 0 auto;
 }
